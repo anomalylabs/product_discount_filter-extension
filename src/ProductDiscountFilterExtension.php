@@ -19,12 +19,12 @@ class ProductDiscountFilterExtension extends FilterExtension
 {
 
     /**
-     * This extension provides the category
+     * This extension provides the product
      * filter for the discounts module.
      *
      * @var string
      */
-    protected $provides = 'anomaly.module.discounts::filter.category';
+    protected $provides = 'anomaly.module.discounts::filter.product';
 
     /**
      * Return the form builder.
